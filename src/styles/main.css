@@ -1,0 +1,11 @@
+.foodList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lunchBox {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+}

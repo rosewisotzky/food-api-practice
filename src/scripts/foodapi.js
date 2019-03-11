@@ -22,9 +22,11 @@ console.log("Delicious")
 let foodList = document.querySelector(".foodList");
 const createHTML = (tastyTreats) => {
     return `
+    <div class="lunchBox">
     <h1>${tastyTreats.name}</h1>
     <section>${tastyTreats.category}</section>
     <aside>${tastyTreats.ethnicity}</aside>
+    </div>
     `
 }
 
